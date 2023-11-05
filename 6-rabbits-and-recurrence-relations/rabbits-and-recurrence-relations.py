@@ -3,7 +3,8 @@ def Weighted_Fibonachi_Calculator(weight:int,idx:int)->int:
     """
     
     ## params
-        idx: an integer represent
+        idx: an integer represent 
+            - this param must be lower than 1999
         weight: an integer corresponds for the number of pair rabbits that will produced from re-productive rabbits (at least 1 month old)
     
     """
@@ -18,5 +19,5 @@ def Weighted_Fibonachi_Calculator(weight:int,idx:int)->int:
     return weight*re_production_age+none_re_production_age
 
 print(Weighted_Fibonachi_Calculator(
-    idx=600,weight=5
+    idx=8,weight=3
 ))
